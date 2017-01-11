@@ -1,0 +1,35 @@
+{
+  "name": "temperature",
+  "author": "Ariel Flesler <aflesler@gmail.com>",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "temperature"
+  ],
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/flesler/temperature",
+  "bugs": "https://github.com/flesler/temperature/issues",
+  "repository": "git://github.com/flesler/temperature",
+  "main": "./bin/temperature.js",
+  "preferGlobal": true,
+  "bin": {
+    "temperature": "./bin/temperature.js"
+  },
+  "scripts": {},
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "mkdirp": "0.5.1",
+    "pumpify": "1.3.5",
+    "request": "2.78.0",
+    "split2": "2.1.0",
+    "through2": "2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "3.8.1",
+    "eslint-config-airbnb-base": "7.1.0",
+    "eslint-plugin-import": "1.15.0"
+  }
+}
